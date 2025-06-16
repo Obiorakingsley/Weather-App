@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="card">
+    <div class="search" id="search">
+      <input id="input" type="search" placeholder="Enter city name">
+      <button id="searchButton"><img src="images/search.png" alt="search icon" width="40" height="40"></button>
+    </div>
+    <div class="error-img diplay-img">
+      <img id="error" src="images/error.png" alt="" width="300" height="300">
+    </div>
+    <div class="city-img display-img">
+      <img src="images/search-city.png" alt="" width="300" height="300">
+    </div>
+    <div class="weather">
+      <div class="country-name">
+        <h1 id="name"></h1>
+        <p id="country"></p>
+      </div>
+
+      <div class="details">
+        <div class="flex">
+          <div class="image">
+            <img id="cloud-condition" src="images/rain.png" alt="cloudy icon" width="200" height="200">
+          </div>
+          <div class="flex-child">
+            <div class="date">
+              <p id="date"></p>
+            </div>
+            <div class="temp">
+              <h2 id="temp"></h2>
+              <p id="description"></p>
+            </div>
+          </div>
+        </div>
+        <div class="rise-set">
+          <div class="sunrise">
+            <img src="images/sunrise.png" alt="" width="50" height="50">
+            <div class="rise">
+              <p>Sunrise</p>
+              <p id="sunrise">98</p>
+            </div>
+          </div>
+
+          <div class="sunset">
+            <img src="images/sunset.png" alt="" width="50" height="50">
+            <div class="set">
+              <p>Sunset</p>
+              <P id="sunset">56</P>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="weather-condition">
+          <div class="condition">
+            <img src="images/wind.png" alt="" width="30" height="30">
+            <div class="condition-details">
+              <p id="wind"></p>
+              <p>Wind speed</p>
+            </div>
+          </div>
+
+          <div class="condition">
+            <img src="images/humidity.png" alt="" width="30" height="30">
+            <div class="condition-details">
+              <p id="humidity"></p>
+              <p>Humidity</p>
+            </div>
+          </div>
+
+          <div class="condition">
+            <img src="images/down-arrow.png" alt="" width="30" height="30">
+            <div class="condition-details">
+              <p id="pressure"></p>
+              <p>Pressure</p>
+            </div>
+          </div>
+
+          <div class="condition">
+            <img src="images/temprature.png" alt="" width="30" height="30">
+            <div class="condition-details">
+              <p id="alt-temp"></p>
+              <p>Feels like</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
