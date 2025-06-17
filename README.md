@@ -12,7 +12,7 @@ A lightweight, user-friendly weather application that delivers accurate current 
 - **Universal Access**: Fully responsive design for all devices
 - **Smart Error Management**: Handles invalid inputs and connection issues
 
-## 🔗 [Live Demo](https://Weather-App.vercel.app/)
+## 🔗 [Live Demo](https://weather-app-obiora-kingsleys-app.vercel.app/)
 
 📸 ![WeatherApp Screenshots](images/screenshot.png)
 
