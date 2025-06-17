@@ -35,8 +35,7 @@ async function fetchData(cityName){
 
 
 buttonElement.addEventListener('click', () => {
-  citySearch.style.display = 'none';
-
+  citySearch.style.display = 'none'; 
   renderData()
 })
 
