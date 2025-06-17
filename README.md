@@ -14,7 +14,7 @@ A lightweight, user-friendly weather application that delivers accurate current 
 
 ## 🔗 [Live Demo](https://Weather-App.vercel.app/)
 
-[WeatherApp Screenshots](images/screenshot.png)
+📸 ![WeatherApp Screenshots](images/screenshot.png)
 
 ## 🛠️ Core Technologies
 
