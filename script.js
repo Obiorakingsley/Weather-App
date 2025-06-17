@@ -62,7 +62,6 @@ async function renderData(){
   description.textContent = data.weather[0].description;
 
   const weatherCondition = await data.weather[0].main;
-  console.log(weatherCondition);
   
 
   if(weatherCondition === 'Clear'){
