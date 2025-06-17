@@ -18,6 +18,9 @@ const citySearch = document.querySelector('.city-img')
 const cloud = document.getElementById('cloud-condition')
 const apiKey = 'b8d7574c46e4895fbd06177bcf817462';
 
+// Fetching Data from OpenWeatherMap API
+//apikey: b8d7574c46e4895fbd06177bcf817462
+
 async function fetchData(cityName){
 
   try{
@@ -54,6 +57,8 @@ async function renderData(){
 
 
   let date = new Date(data.dt * 1000);
+
+  //Weather Data
   
   pressure.textContent = data.main.pressure + ' hpa'
   nameSearch.textContent = data.name;
@@ -107,6 +112,7 @@ async function renderData(){
   humidity.textContent = data.main.humidity + '%';
   altTemp.textContent = Math.round(data.main.feels_like) + '°C'
 
+//Error Handling
   
   errorImg.style.display = 'none'
   weatherElement.style.display = 'block'
