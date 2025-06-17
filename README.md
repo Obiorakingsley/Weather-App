@@ -4,19 +4,17 @@
 
 A lightweight, user-friendly weather application that delivers accurate current weather conditions for any global location. Built with simplicity in mind, it provides essential weather data at a glance.
 
-### 🔗 [View Demo]()
-
 ## ✨ Key Features
 
 - **Instant Weather Updates**: Get real time temperature, humidity, and wind data
 - **Visual Weather Indicators**: Dynamic icons for clear, cloudy, rainy, and other conditions
 - **Daylight Tracking**: Precise sunrise and sunset times
 - **Universal Access**: Fully responsive design for all devices
-- **Smart Error Management**: Handles invalid inputs and connection issues gracefully
+- **Smart Error Management**: Handles invalid inputs and connection issues
 
 ## 🔗 [Live Demo](https://Weather-App.vercel.app/)
 
-### 📸 [Weather-App-Screenshots](images/screenshot.png)
+[WeatherApp Screenshots](images/screenshot.png)
 
 ## 🛠️ Core Technologies
 
